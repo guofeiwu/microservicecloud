@@ -1,0 +1,10 @@
+server:
+  port: 7003
+eureka:
+  instance:
+    appname: eureka7003.com
+  client:
+    fetch-registry: false #自己只作为注册中心 我的职责就是维护服务实例，并不需要去检索服务
+    register-with-eureka: false # 自己不向自己注册
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
