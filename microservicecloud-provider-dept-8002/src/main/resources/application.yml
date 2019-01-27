@@ -1,12 +1,12 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
     name: microservice-dept
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/dbcloud001?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql:///dbcloud002?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: '123456.'
     type: com.alibaba.druid.pool.DruidDataSource
@@ -23,7 +23,7 @@ mybatis:
 eureka:
   instance:
     prefer-ip-address: true
-    instance-id: microservice-dept8001
+    instance-id: microservice-dept8002
   client:
     service-url:
 #      defaultZone: http://localhost:7001/eureka
