@@ -10,7 +10,7 @@
     <modules>
         <module>microservicecloud-api</module>
         <module>microservicecloud-provider-dept-8001</module>
-        <module>microservicecloud-consumer-dept80</module>
+        <module>microservicecloud-consumer-dept-80</module>
         <module>microservicecloud-eureka-server-7001</module>
         <module>microservicecloud-eureka-server-7002</module>
         <module>microservicecloud-eureka-server-7003</module>
