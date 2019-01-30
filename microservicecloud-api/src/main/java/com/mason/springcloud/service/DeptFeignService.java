@@ -14,7 +14,8 @@ import java.util.List;
  * @since 2019/1/30
  */
 
-@FeignClient("microservice-dept")
+//@FeignClient("microservice-dept")
+@FeignClient(value = "microservice-dept", fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptFeignService {
 
     @RequestMapping("/dept/add")
