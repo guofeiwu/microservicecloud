@@ -5,11 +5,13 @@ import com.mason.springcloud.service.DeptService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import sun.rmi.runtime.Log;
 
 import java.util.List;
 
 
+/**
+ * 服务熔断
+ */
 @RestController
 public class DeptController {
     @Autowired
