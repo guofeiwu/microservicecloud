@@ -1,4 +1,5 @@
 # 关于如何使用ConfigServer
+## configServer服务端
 
 在我自己的github中新建了一个仓库microservicecloud-config，里面有一个application.yml文件，文件的内容如下：
 ```yaml
