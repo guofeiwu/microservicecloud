@@ -71,4 +71,5 @@ spring:
           password: xxxx # 自己github上面的密码
 ```
 但是这样会暴露用户名密码，这样不安全，接下来，将配置配置中心客户端。
+[configServer客户端配置步骤](https://github.com/guofeiwu/microservicecloud/blob/master/article/configServer/2_config_client.md)
 
