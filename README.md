@@ -10,4 +10,7 @@
 
 
 ---------------------------------------------------------------
-[configServer具体配置步骤]()
+
+# 7、configServer相关文章
+
+### 7.1 [configServer服务端配置步骤](https://github.com/guofeiwu/microservicecloud/blob/master/article/configServer/1_config_server.md)
