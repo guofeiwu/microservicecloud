@@ -1,7 +1,7 @@
 # 关于如何使用ConfigServer
 ## configServer服务端
 
-在我自己的github中新建了一个仓库microservicecloud-config，在仓库中新建application.yml文件，文件的内容如下：
+在我自己的github中新建了一个仓库microservicecloud-config，[microservicecloud-config仓库地址](https://github.com/guofeiwu/microservicecloud-config)在仓库中新建application.yml文件，文件的内容如下：
 ```yaml
 spring:
   profiles:
