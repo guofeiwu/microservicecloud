@@ -11,7 +11,7 @@
     </dependency>
     
 
-在资源目录下新建application.yml文件，文件的内容如下：
+新建github仓库，microservicecloud-config，在仓库中新建application.yml文件，文件的内容如下：
 ```yaml
 spring:
   profiles:
