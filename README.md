@@ -6,3 +6,4 @@
 + hystrix 服务熔断与服务降级
 + hystrix dashboard
 + 网关路由zuul
++ configServer
