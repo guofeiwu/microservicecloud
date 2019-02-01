@@ -1,6 +1,17 @@
 # 关于如何使用ConfigServer
+## configServer服务端
 
-在我自己的github中新建了一个仓库microservicecloud-config，里面有一个application.yml文件，文件的内容如下：
+在我自己的github中新建了一个仓库microservicecloud-config，
+除了spring-boot相关的依赖之外还需要config的依赖，其他的依赖可以查看具体的pom，在pom.xml中添加：
+
+>   
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-config-server</artifactId>
+    </dependency>
+    
+
+新建github仓库，microservicecloud-config，在仓库中新建application.yml文件，文件的内容如下：
 ```yaml
 spring:
   profiles:
@@ -18,13 +29,6 @@ spring:
 ```
 ok~，仓库暂时先这样，在项目中新建module：microservicecloud-config-3344，配置中心服务端。
 
-除了spring-boot相关的依赖之外还需要config的依赖，其他的依赖可以查看具体的pom，在pom.xml中添加：
->   
-    <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-config-server</artifactId>
-    </dependency>
-    
 接下来配置application.yml：
 ```yaml
 server:
@@ -71,4 +75,5 @@ spring:
           password: xxxx # 自己github上面的密码
 ```
 但是这样会暴露用户名密码，这样不安全，接下来，将配置配置中心客户端。
+[configServer客户端配置步骤](https://github.com/guofeiwu/microservicecloud/blob/master/article/configServer/2_config_client.md)
 
