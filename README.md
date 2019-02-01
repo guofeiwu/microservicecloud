@@ -1,5 +1,6 @@
 # microservicecloud
 ## spring cloud 学习
++ 0、项目初始化
 + 1、eureka服务注册与发现
 + 2、Ribbon负载均衡
 + 3、Feign负载均衡
@@ -11,8 +12,9 @@
 
 ---------------------------------------------------------------
 # Spring Cloud学习总结
-### 1.1 [项目初始化并创建服务提供者](https://github.com/guofeiwu/microservicecloud/blob/master/article/1_init_project.md)
-### 1.2 [服务消费者](https://github.com/guofeiwu/microservicecloud/blob/master/article/2_init_project.md)
+## 0、项目初始化
+### 0.1 [项目初始化并创建服务提供者](https://github.com/guofeiwu/microservicecloud/blob/master/article/1_init_project.md)
+### 0.2 [服务消费者](https://github.com/guofeiwu/microservicecloud/blob/master/article/2_init_project.md)
 ## 7、configServer相关文章
 
 ### 7.1 [configServer服务端配置步骤](https://github.com/guofeiwu/microservicecloud/blob/master/article/configServer/1_config_server.md)
